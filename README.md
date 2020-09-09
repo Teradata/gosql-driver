@@ -1,6 +1,6 @@
 ## Teradata GoSQL Driver Plugin
 
-The Teradata GoSQL Driver is available as a Go plugin. This is not an official Teradata supported product. The plugin is provided as a service to the user community for accessing Teradata Vantage from the Go language.
+The Teradata GoSQL Driver is available as a Go plugin. This is not an official Teradata supported product. This plugin is provided as a service to the user community for accessing Teradata Vantage from the Go language.
 
 Please be aware that Go plugins currently have significant limitations from the Go language itself.
 *	Only macOS and Linux support, but no Windows support.
