@@ -25,9 +25,9 @@ Copyright 2020 Teradata. All Rights Reserved.
 
 Download the shared library for your platform.
 
-* For Mac, download `teradatasql-go1.14.6.dylib`
+* For Mac, download [`teradatasql-go1.14.6.dylib`](/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.dylib)
 
-* For Linux, download `teradatasql-go1.14.6.so`
+* For Linux, download [`teradatasql-go1.14.6.so`](/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.so)
 
 <a name="SampleProgram"></a>
 
