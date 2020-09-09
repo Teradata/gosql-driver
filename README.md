@@ -29,15 +29,15 @@ Copyright 2020 Teradata. All Rights Reserved.
 
 Download the shared library for your platform.
 
-* For macOS, download [`teradatasql-go1.14.6.dylib`](/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.dylib)
+* For macOS, download [`teradatasql-go1.14.6.dylib`](https://github.com/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.dylib)
 
-* For Linux, download [`teradatasql-go1.14.6.so`](/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.so)
+* For Linux, download [`teradatasql-go1.14.6.so`](https://github.com/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.so)
 
 <a name="SampleProgram"></a>
 
 ### Sample Program
 
-The sample program [`UseGoSQLPlugin.go`](/Teradata/gosql-driver/blob/master/UseGoSQLPlugin.go) demonstrates how to load the Teradata GoSQL Driver plugin and use the Teradata GoSQL Driver.
+The sample program [`UseGoSQLPlugin.go`](https://github.com/Teradata/gosql-driver/blob/master/UseGoSQLPlugin.go) demonstrates how to load the Teradata GoSQL Driver plugin and use the Teradata GoSQL Driver.
 
 The Teradata GoSQL Driver accepts a JSON string to specify connection parameters, [documented below](#ConnectionParameters).
 
