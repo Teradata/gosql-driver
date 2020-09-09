@@ -33,6 +33,8 @@ Download the shared library for your platform.
 
 ### Sample Program
 
+The sample program [`UseGoSQLPlugin.go`](/Teradata/gosql-driver/blob/master/UseGoSQLPlugin.go) demonstrates how to load the Teradata GoSQL Driver plugin and use the Teradata GoSQL Driver.
+
 The Teradata GoSQL Driver accepts a JSON string to specify connection parameters, [documented below](#ConnectionParameters).
 
 You must properly quote the `UseGoSQLPlugin.go` command line arguments for the JSON string and the SQL query text parameters according to what your shell requires.
