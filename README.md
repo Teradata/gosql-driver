@@ -1,6 +1,6 @@
 ## Teradata GoSQL Driver Plugin
 
-Teradata GoSQL Driver is available as a Go plugin.
+The Teradata GoSQL Driver is available as a Go plugin.
 
 This Go plugin requires 64-bit Go 1.14.6, and runs on macOS and Linux. Windows is not supported.
 
