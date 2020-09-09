@@ -38,7 +38,7 @@ Download the shared library for your platform.
 
 ### License
 
-Use of the Teradata GoSQL Driver is governed by the *License Agreement for the Teradata GoSQL Driver*.
+Use of the Teradata GoSQL Driver is governed by the [License Agreement for the Teradata GoSQL Driver](https://github.com/Teradata/gosql-driver/blob/master/LICENSE).
 
 In addition to the license terms, the driver may contain beta/preview features ("Beta Features"). As such, by downloading and/or using the driver, in addition to the licensing terms, you acknowledge that the Beta Features are experimental in nature and that the Beta Features are provided "AS IS" and may not be functional on any machine or in any environment.
 
