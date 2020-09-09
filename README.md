@@ -19,6 +19,7 @@ Copyright 2020 Teradata. All Rights Reserved.
 ### Table of Contents
 
 * [Download](#Download)
+* [License](#License)
 * [Sample Program](#SampleProgram)
 * [Connection Parameters](#ConnectionParameters)
 * [Data Types](#DataTypes)
@@ -34,6 +35,16 @@ Download the shared library for your platform.
 * For Linux, download [`teradatasql-go1.14.6.so`](https://github.com/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.so)
 
 <a name="SampleProgram"></a>
+
+<a name="License"></a>
+
+### License
+
+Use of the Teradata GoSQL Driver is governed by the *License Agreement for the Teradata GoSQL Driver*.
+
+In addition to the license terms, the driver may contain beta/preview features ("Beta Features"). As such, by downloading and/or using the driver, in addition to the licensing terms, you acknowledge that the Beta Features are experimental in nature and that the Beta Features are provided "AS IS" and may not be functional on any machine or in any environment.
+
+<a name="Documentation"></a>
 
 ### Sample Program
 
