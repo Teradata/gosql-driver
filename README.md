@@ -2,7 +2,7 @@
 
 The Teradata GoSQL Driver is available as a Go plugin.
 
-Please be aware that Go plugins currently have significant limitations. The limitations come from the Go language itself.
+Please be aware that Go plugins currently have significant limitations from the Go language itself.
 *	Only macOS and Linux support, but no Windows support.
 *	Go plugins can only be used with the specific version of Go that was used to build the plugin. No forwards or backwards compatibility across Go versions.
 
