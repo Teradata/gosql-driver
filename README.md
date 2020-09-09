@@ -2,6 +2,10 @@
 
 The Teradata GoSQL Driver is available as a Go plugin.
 
+Please be aware that Go plugins currently have significant limitations. The limitations come from the Go language itself.
+*	Only macOS and Linux support, but no Windows support.
+*	Go plugins can only be used with the specific version of Go that was used to build the plugin. No forwards or backwards compatibility across Go versions.
+
 This Go plugin requires 64-bit Go 1.14.6, and runs on macOS and Linux. Windows is not supported.
 
 For community support, please visit the [Teradata Community forums](https://community.teradata.com/).
@@ -25,7 +29,7 @@ Copyright 2020 Teradata. All Rights Reserved.
 
 Download the shared library for your platform.
 
-* For Mac, download [`teradatasql-go1.14.6.dylib`](/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.dylib)
+* For macOS, download [`teradatasql-go1.14.6.dylib`](/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.dylib)
 
 * For Linux, download [`teradatasql-go1.14.6.so`](/Teradata/gosql-driver/releases/download/17.0.2/teradatasql-go1.14.6.so)
 
@@ -39,7 +43,7 @@ The Teradata GoSQL Driver accepts a JSON string to specify connection parameters
 
 You must properly quote the `UseGoSQLPlugin.go` command line arguments for the JSON string and the SQL query text parameters according to what your shell requires.
 
-In the following example, single-quotes are used to enclose the JSON string, which contains double-quotes. This is the typical quoting style on Mac and Linux. Specify your platform's shared library filename as the first argument after the `UseGoSQLPlugin.go` filename argument.
+In the following example, single-quotes are used to enclose the JSON string, which contains double-quotes. This is the typical quoting style on macOS and Linux. Specify your platform's shared library filename as the first argument after the `UseGoSQLPlugin.go` filename argument.
 ```
 go run UseGoSQLPlugin.go teradatasql-go1.14.6.dylib '{"host":"whomooz","user":"guest","password":"please"}' "select 123"
 ```
